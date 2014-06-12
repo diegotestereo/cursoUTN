@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cursoandroidutnnivel1"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+          android:name="MyApplication"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.example.cursoandroidutnnivel1.clase10.lay_mensajes"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.cursoandroidutnnivel1.loginprefs.lay_login_correcto" >
+        </activity>
+        <activity android:name="com.example.cursoandroidutnnivel1.clase1.activity_empty" >
+        </activity>
+        <activity android:name="com.example.cursoandroidutnnivel1.clase10.lay_lista" >
+        </activity>
+    </application>
+
+</manifest>
