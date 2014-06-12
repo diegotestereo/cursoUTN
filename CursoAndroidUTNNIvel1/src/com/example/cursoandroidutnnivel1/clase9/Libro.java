@@ -13,7 +13,7 @@ public class Libro
 	{
 		if (activo) return "1"; else return "0";
 	}
-	
+	///
 	public Libro()
 	{
 		// TODO Auto-generated constructor stub
