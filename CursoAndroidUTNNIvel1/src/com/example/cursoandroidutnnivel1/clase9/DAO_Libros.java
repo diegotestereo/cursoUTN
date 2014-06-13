@@ -51,7 +51,7 @@ public class DAO_Libros extends SQLiteOpenHelper
 		 SQLiteDatabase baseDatos = getWritableDatabase(); 
 		 String sql = "SELECT * FROM libros"; 
 		 Cursor cursor = baseDatos.rawQuery(sql, null); 
-		 ArrayList<Libro >libros=new ArrayList<Libro>();  
+		 ArrayList<Libro>libros=new ArrayList<Libro>();  
 		 while (cursor.moveToNext()) 
 		 { 
 			 Libro oLibro=new Libro(); 
